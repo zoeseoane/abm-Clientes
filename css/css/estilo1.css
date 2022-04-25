@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: 'Montserrat';
+    margin: 1050;
+}
+
+#contacto, #inicio{
+    background-image: url(../images/fondo-contacto.png);
+    background-size: 300%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+   
+}
+#Proyecto, #sobre-mi{
+    background-image: url(../images/fondo-proyectos.png);
+    background-size: 300%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+   
+}
+
+
+#proyecto h3{
+font-size: 100%;
+color:white;
+text-transform: uppercase;
+}
+
+#proyecto .proyecto p{
+    font-size: 14px;
+    height: 100px;
+}
+p{
+    color: #6a6a6a;
+    font-size: 16px;
+}
+nav .active{
+    border: 1px solid red;
+    border-radius: 26px;
+}
+nav .nav-link{
+    color: #282828;
+
+}
+
+nav .fa-bars{
+    color: tomato;
+    border: 1px #E20000;
+    width: 10px;
+}
+
+.form-control{
+    border-radius: 16px;
+}
+
+h1{
+    font-size: 36px;
+    color: #E20000;
+}
+footer{
+    color: white;
+    font-weight: 100;
+}
+footer a{
+    color: white;
+}
+
+.btn-rojo{
+    background-color: #E20000;
+    color: white;
+    border-radius: 50px;
+}
+.btn-rojo:hover{
+    color: #370a6d ;
+}
+
+.btn-blanco{
+    background-color: white;
+    color: #370a6d;
+    border-radius: 20px;
+    
+}
+
+.btn-link{
+    color: #E20000;
+    text-decoration: none; /* le saca el subrrayado */
+}
+
+.btn-link:hover{
+    color: #370a6d ;
+    text-decoration: none;
+}
+.btn-blanco:hover{
+    background-color:#370a6d ;
+    color: white;
+}
+
+footer .fa-whatsapp{
+    font-size: 26px;
+    color: white;
+}
+footer .fa-linkedin-in{
+    color: #ff4a49 ;
+    background-color:white ;
+    font-size: 24px;
+    border:0px ;
+    height: 36px;
+    width: 36px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    margin: 0 0px;
+    border-radius: 50px;
+
+}
+footer .fa-github{
+    color: #ff4a49 ;
+    background-color: white;
+   font-weight: 100px;
+   font-size: 34px;
+   border-radius: 50px;
+}
+
+#inicio .div-cohete{
+    height: 410px;
+}
+#inicio .cohete{
+    height: 400px;
+}
+
+#inicio .input-home p{
+    color: white;
+    font-size: 17px;
+    border: 1px solid white;
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+
+
+
+
+.bloque-whatsapp{
+    position: fixed;
+    bottom: 0px;
+    right: 60px ;
+    background-color: #370a6d;
+    border-top-left-radius:  20px;
+    border-top-right-radius:  20px;
+   }
+
+
+
+
+   @media (max-width: 750px){  /* imagenes de fondo en movile que cuando sea menor a 750 px se muestre esto */
+    #inicio, #contacto{
+        background-image: url(../images/fondo-proyectos.png);
+    }
+    #inicio .input-home p{
+        color: #E20000;
+        border: 1px solid #E20000;
+    }
+    footer a{
+        color: #dd2020;
+    }
+    .rowrojo h3{
+        margin-left: 15px;
+    }
+    .imgRedonda {
+        width:300px;
+        height:300px;
+        border-radius:150px ;
+        border: 15px solid white;
+        margin-left: 15px;
+       margin-bottom: 10px;
+        
+    }
+       .baw{
+           width: 0px;
+       }
+       .baw2{
+          margin: 30px;
+       }        
+      
+      
+}
+  
+    #inicio img{
+        width: 250px;
+    }
+    
+    #inicio .cohete:hover {
+        width: 350px;
+    }
+
+    #inicio .div-cohete{
+        height: 400px;
+    }
+    
+
+    #inicio .btn-shadow {
+        color: black;
+        border: 7px solid  #E20000;
+        border-radius: 10px;
+        background-color: #E20000;
+    }
+ 
+    #Proyecto footer{
+        color: red;
+        font-weight: 100;
+    }
+    #Proyecto footer a{
+        color: red;
+    }
+    #Proyecto footer:hover{
+        color: #370a6d;
+        font-weight: 100;
+        text-decoration: none;
+    }
+    #Proyecto footer a:hover{
+        color: #370a6d;
+        text-decoration: none;
+    }
+
+
+    .bloque-whatsapp{
+        bottom: 0px;
+        right: 10px ;
+        background-color: #370a6d;
+        border-top-left-radius:  20px;
+        border-top-right-radius:  20px;
+       }
+       .imgRedonda {
+        width:350px;
+        height:350px;
+        border-radius:300px ;
+        border: 15px solid white;
+        margin-left: 65px;
+       margin-bottom: 30px;
+        
+    }
+
+    .codigorojo{
+        color: red;
+        margin-right: 10px;
+    }
+
+    .titulo{
+        color: white;
+    
+    }
+
+.imglogo{
+    max-width: 60px ;
+    max-height: 60px ;
+    top: 1px;
+    left: 5px;
+    right: 5px         ;
+    bottom: 5px;
+    margin: 5px;
+   
+    
+}
+
+
+.caja { 
+    background-color: white;
+    border-radius: 8px;
+    margin-right: -15px;
+    margin-left: -15px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+margin-left: 5px;
+margin-right: 5px;
+   margin-bottom: 15px;
+ }
+.caja2 { 
+    background-color: white;
+    border-radius: 8px;
+    margin-right: -15px;
+    margin-left: -15px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 5px;
+margin-right: 5px;
+margin-bottom: 55px;
+
+ }
+
+         .imglogo img{  /* Centramos la imagen dentro del contenedor*/
+            height: 130px;
+            margin: auto;
+            display: block;
+        }
+         
+        .rowrojo h3{
+            margin-left: 80px;
+           
+        }
+        .rowrojo{
+            width: 100%;
+        }
+        .color-gradiente{
+            background: rgba(184,37,20,1);
+            background: -moz-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+            background: -webkit-gradient(left top, right top, color-stop(0%, rgba(184,37,20,1)), color-stop(47%, rgba(214,52,30,1)), color-stop(70%, rgba(240,47,23,1)), color-stop(100%, rgba(240,47,23,1)));
+            background: -webkit-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+            background: -o-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+            background: -ms-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+            background: linear-gradient(to right, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b82514', endColorstr='#f02f17', GradientType=1 );
+        }
+
+
+        .baw {
+    filter: grayscale(100%);
+             
+      }
+    
+      .baw:hover {
+          
+     filter:grayscale(0%);
+      }
+      .btn-rojo2{
+        background-color: #E20000;
+        color: white;
+        border-radius: 50px;
+    
+       
+           }
+
+      @media (min-width: 750px){
+        .btn-rojo2{
+            background-color: #E20000;
+            color: white;
+            border-radius: 50px;
+       margin-left: 900px;
+                top: 0px;
+                right: 0px ;
+           
+               }
+               .row1{
+                justify-content: space-between;
+                flex-wrap: nowrap;
+              }  
+              #inicio .btn-shadow {
+                color: black;
+                border: 7px solid  white;
+                border-radius: 10px;
+                background-color:white
+            }
+            .rowrojo h3{
+                margin-left: 170px;
+               
+            }
+            }
+        
+        .btn-rojo2:hover{
+            color: #370a6d ;
+        }
+
+        .fa-graduation-cap{
+            color: red;
+        }
+
+        .fa-briefcase{
+            color: red;
+        }
+
+        #sobre-mi h2{
+            color: red;
+        }
+        #sobre-mi h4{
+            color: red;
+        }
+        .tecnologia{
+            width: 170;
+        }
+        #idiomas .card-idioma{
+            border-radius: 15px;
+        }
+        #idiomas .card{
+            background-color: #370A6D;
+            border-radius: 15px;
+            padding: 40px 0;
+        }
+        #idiomas{
+            background-color: #eee;
+        }
+        #idiomas h2{
+            font-size: 16px;
+            font-weight: 600px;
+        }
+        #idiomas ul{
+            padding: 0px;
+            font-size: 14px;
+            color: #282828;
+            list-style-type: none;
+        }
+        #idiomas .fas{
+            font-size: 80px;
+            color: white;
+        }
